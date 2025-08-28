@@ -92,12 +92,12 @@ color: red;
 
 footer {
     width: 100%;
-    color:
+    color: var(--color-neutral-40)
 
 }
 
-#footer_content{
-    background-color: #171717;
+#footer_coutent{
+    background-color: var(--color-neutral-10);
     display: grid;
     grid-template-columns: repeat(4,1fr);
     padding: 3rem 3.5rem;
