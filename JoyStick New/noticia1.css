@@ -6,6 +6,9 @@ header {
     font-weight: bold;
 }
 
+
+
+
 body{
 
     margin: 60px;
@@ -20,11 +23,11 @@ nav ul {
     margin: 20px 0;
     display: flex;
     justify-content: center;
-    gap: 20px
+    gap: 20px;
 }
 nav ul li a {
     text-decoration: none;
-    color:#fff;
+    color: #0e0c0c;
     font-weight: bold;
 }
 
@@ -32,22 +35,6 @@ nav ul li a:hover {
     color: #ff6600;
 }
 
-#desenho {
-  margin-left: 35px;
-}
-
-.img-container {
-  position: relative;
-  display: inline-block;
-  overflow: hidden;
-  border-radius: 12px;
-  list-style: none;
-}
-
-.img-container img {
-  display: block;
-  max-width: 300px;
-}
 
 .overlay {
   position: absolute;
@@ -80,11 +67,13 @@ color: red;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
   filter: brightness(0.9) contrast(1.2) saturate(1.3);
   transition: transform 0.3s ease, filter 0.3s ease;
+  list-style: none;
 }
 
 #foto1:hover {
   transform: scale(1.05);
   filter: brightness(1.1) contrast(1.2) saturate(1.3);
+  list-style: none;
 }
 
 #foto2{
